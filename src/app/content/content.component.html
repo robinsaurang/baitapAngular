@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="btnClick">
+    <button style="background: blue;color: white" class="btn">Add new Block</button>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="items clear-fix" *ngFor="let list of lists">
+        <div class="item-img">
+          <img src="https://404store.com/2017/12/08/Random-Pictures-of-Conceptual-and-Creative-Ideas-02.jpg" alt="">
+        </div>
+        <div class="item-content" >
+          <p>{{list.ID }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
